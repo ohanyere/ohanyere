@@ -47,7 +47,7 @@ Observability:
 
 Other:
 
-* Linux (WSL, Ubuntu)
+* Linux (Ubuntu)
 * Git
 
 ## Current Direction
