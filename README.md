@@ -1,98 +1,98 @@
-# Francis Ohanyere
+# Hi, I’m Francis 👋
 
-Platform-focused engineer with a strong foundation in backend development and growing expertise in cloud-native infrastructure. I build and operate systems that are reliable, scalable, and production-ready.
+Platform Engineer focused on Kubernetes, AWS, and production-grade infrastructure.
 
-My work sits at the intersection of backend engineering and platform engineering—designing APIs, provisioning infrastructure with Terraform, and deploying workloads on Kubernetes (EKS).
-
-I focus on solving practical problems around system reliability, deployment automation, and infrastructure efficiency.
-
-## Core Focus
-
-* Designing and deploying cloud-native applications on AWS (EKS)
-* Building modular infrastructure using Terraform (VPC, networking, compute)
-* Developing backend services in Go with clean, maintainable architecture
-* Containerizing and orchestrating applications with Docker and Kubernetes
-* Implementing CI/CD pipelines and GitOps workflows
-* Improving system observability using Prometheus and Grafana
-* Optimizing infrastructure cost and workload efficiency
-
-## Tech Stack
-
-Infrastructure & Cloud:
-
-* AWS (EKS, EC2, VPC, IAM, ALB)
-* Terraform (modular architecture, reusable modules)
-
-Containerization & Orchestration:
-
-* Docker
-* Kubernetes (Deployments, Services, Ingress)
-
-Backend:
-
-* Go (Golang)
-* REST APIs
-* Redis, PostgreSQL
-
-CI/CD & GitOps:
-
-* GitHub Actions
-* ArgoCD
-
-Observability:
-
-* Prometheus
-* Grafana
-* Loki (basic usage)
-
-Other:
-
-* Linux (Ubuntu)
-* Git
-
-## Current Direction
-
-* Building a cloud-native platform project combining:
-
-  * Go services (API + worker architecture)
-  * Kubernetes (EKS) deployments
-  * Terraform-managed infrastructure
-  * Observability stack (Prometheus + Grafana)
-
-* Exploring workload efficiency and cost optimization in Kubernetes environments
-
-* Deepening understanding of:
-
-  * Kubernetes scheduling and scaling
-  * Infrastructure design patterns
-  * Production-grade system reliability
-
-## Selected Work
-
-You’ll find projects here that reflect:
-
-* Real-world infrastructure setups (not tutorials)
-* End-to-end systems (infra → app → deployment)
-* Practical debugging and operational experience
-
-## Contact
-
-* Email: [ohanyerefrancis395@gmail.com](mailto:ohanyerefrancis395@gmail.com)
-* GitHub: https://github.com/ohanyere
+I design and build systems that help teams deploy, operate, and recover applications reliably.
 
 ---
 
-## Example Workflow
+## 🚀 What I Do
 
-# Provision infrastructure
-terraform init
-terraform apply
+* Build Kubernetes-based platforms on AWS (EKS)
+* Design CI/CD and GitOps workflows (GitHub Actions + ArgoCD)
+* Implement disaster recovery and backup systems
+* Enforce cost control using FinOps practices
+* Analyze cluster efficiency and resource utilization
 
-# Configure cluster access
-aws eks update-kubeconfig --name company-prod-eks --region us-east-1
+---
 
-# Deploy workloads
-kubectl apply -f k8s/
+## 🧩 Featured Projects
 
-# Observe system
-kubectl get pods -A
+### 🔹 Cluster Meter (Core Project)
+
+A Kubernetes capacity analysis tool that inspects cluster resource usage and provides actionable recommendations.
+
+**Tech:** Go, Kubernetes API, Docker, EKS, ArgoCD, GitHub Actions
+**Highlights:**
+
+* CLI + HTTP API for cluster analysis
+* Real-time capacity metrics and pressure detection
+* Rule-based recommendation engine
+* Containerized and deployed via Kubernetes
+* CI pipeline with linting, testing, and security scanning
+
+---
+
+### 🔹 EKS Disaster Recovery Platform
+
+A system that simulates failure and restores Kubernetes workloads using Velero and S3-backed backups.
+
+**Highlights:**
+
+* Backup and restore of Kubernetes namespaces
+* Failure simulation (namespace deletion)
+* Full recovery validation with live cluster
+* Zero data loss during recovery test
+
+---
+
+### 🔹 FinOps Cost Guardrail Pipeline
+
+A CI-based system that prevents expensive infrastructure changes before deployment.
+
+**Tech:** Terraform, Infracost, GitHub Actions
+**Highlights:**
+
+* Plan-only Terraform pipeline
+* Cost estimation before apply
+* PR-based cost enforcement
+* Multi-environment cost comparison
+
+---
+
+### 🔹 Progressive Delivery Demo
+
+Implements canary deployments and rollback strategies using Argo Rollouts.
+
+**Highlights:**
+
+* Canary deployment strategy
+* Controlled rollout progression
+* Failure simulation and rollback
+* Kubernetes-native progressive delivery
+
+---
+
+## 🛠 Tech Stack
+
+* **Cloud:** AWS (EKS, EC2, S3, IAM)
+* **Containers:** Docker, Kubernetes
+* **IaC:** Terraform
+* **CI/CD:** GitHub Actions
+* **GitOps:** ArgoCD
+* **Languages:** Go
+* **Observability:** Prometheus, Grafana 
+
+---
+
+## 📌 Current Focus
+
+* Platform engineering for Kubernetes workloads
+* Improving cluster efficiency and cost optimization
+* Building internal developer platforms
+
+---
+
+## 📫 Contact
+
+* GitHub: https://github.com/ohanyere
